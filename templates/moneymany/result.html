@@ -1,0 +1,44 @@
+{% load staticfiles i18n %}
+
+
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+{% include 'moneymany/base.html' %}
+{% include 'moneymany/nav2.html' %}
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive"  src="{{STATIC_URL}}{{ request.session.image }}" alt="">
+                        <div class="intro-text">
+                        <span class="name">{{ request.session.name }} {% trans "買單" %}</span>
+                        <hr class="star-light">
+                    </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="{% url 'moneymany:computer' %}" class="btn btn-lg btn-outline">
+                        <i class=""></i> {% trans "再玩一次" %}
+                    </a>
+                </div>
+                </div>
+                <!--<div class="col-lg-12">-->
+                    <!--{% for r in result%}-->
+                    <!--<img class="img-responsive" src="{{STATIC_URL}}{{r.image_urls}}" alt="">-->
+                    <!--<div class="intro-text">-->
+                        <!--<span class="name">{{ r.name}} 買單</span>-->
+                        <!--{% endfor%}-->
+                        <!--<hr class="star-light">-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            </div>
+
+
+        </div>
+    </header>
+
+{% include 'moneymany/basejs.html' %}
+
+</body></html>

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-12 15:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: imbuying/settings.py:110
+msgid "English"
+msgstr ""
+
+#: imbuying/settings.py:111
+msgid "Traditional Chinese"
+msgstr ""
+
+#: templates/luckymall/lucky.html:34 templates/luckymall/lucky.html.py:38
+#: templates/luckymall/lucky.html:42
+msgid "我要購買"
+msgstr "I want it"
+
+#: templates/moneymany/about.html:7 templates/moneymany/header.html:11
+#: templates/moneymany/nav.html:24 templates/moneymany/nav2.html:24
+msgid "今天誰請客"
+msgstr "Who'll pay today"
+
+#: templates/moneymany/about.html:13
+msgid "偶爾也會期待一頓白吃的午餐，快來今天誰請客"
+msgstr "Always waiting for something special.Try Who'll Pay Today!!"
+
+#: templates/moneymany/about.html:14 templates/moneymany/joinnow.html:25
+msgid "此遊戲一定有風險，人生在世有賺有陪，請保持健康的心態。"
+msgstr "You win some, you lose some.That is life.Keep love and peace"
+
+#: templates/moneymany/about.html:18 templates/moneymany/nav.html:40
+#: templates/moneymany/nav2.html:40
+msgid "我要參加"
+msgstr "Count me in"
+
+#: templates/moneymany/contact.html:24
+msgid "聯絡我們"
+msgstr "Contact me"
+
+#: templates/moneymany/contact.html:69
+msgid "送出"
+msgstr "Send"
+
+#: templates/moneymany/header.html:9
+msgid "他在等你 你在等我 我在等誰?"
+msgstr ""
+" He is waiting for you"
+",while you are waiting for me Whom I am waiting for?"
+
+#: templates/moneymany/joinnow.html:19
+msgid "電腦決定誰請客"
+msgstr "Let computer decide Who'll pay today"
+
+#: templates/moneymany/joinnow.html:30
+msgid "開始"
+msgstr "Race Start"
+
+#: templates/moneymany/nav.html:34 templates/moneymany/nav2.html:34
+msgid "幸運物商城"
+msgstr "Lucky Mall"
+
+#: templates/moneymany/nav.html:37 templates/moneymany/nav2.html:37
+msgid "誰來請客"
+msgstr "Who'll pay today"
+
+#: templates/moneymany/nav.html:43 templates/moneymany/nav2.html:43
+msgid "客服專區"
+msgstr "Contact me"
+
+#: templates/moneymany/nav.html:52 templates/moneymany/nav2.html:52
+msgid "語系"
+msgstr "Languages"
+
+#: templates/moneymany/portfolio.html:17
+msgid "介紹"
+msgstr ""
+
+#: templates/moneymany/result.html:17
+msgid "買單"
+msgstr "pays the bill"
+
+#: templates/moneymany/result.html:22
+msgid "再玩一次"
+msgstr "Again"

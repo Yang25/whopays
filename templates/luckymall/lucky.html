@@ -1,0 +1,57 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html lang="zh-tw">
+{% include 'moneymany/base.html' %}
+{% include 'moneymany/nav2.html' %}
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    #lucky{
+    margin:10px auto;
+    background-color:#5c9bfa;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); }
+
+</style>
+
+<body>
+{% load staticfiles %}
+ <header>
+   <div class="container">
+    <div class="col-lg-12 text-center">
+        <h2>全館買千送一</h2>
+        <img src="{% static 'img/i.jpeg' %}" height="100" width="100">
+    </div>
+
+<div class="col-md-12 text-center">
+            <div class="row"  id="lucky">
+                 <div class="col-md-4 lucky1">
+                    <img src="{% static 'img/lucky/13192.png' %}">
+                    <div>幸運物一號 $8888<button type="submit" class="btn btn-primary">{% trans "我要購買" %}</button> </div>
+                 </div>
+                 <div class="col-md-4 lucky1">
+                     <img src="{% static 'img/lucky/4363.png' %}">
+                     <div>幸運物二號 $8888<button type="submit" class="btn btn-primary">{% trans "我要購買" %}</button> </div>
+                 </div>
+                 <div class="col-md-4 lucky1">
+                    <img src="{% static 'img/lucky/4372.png' %}">
+                     <div>幸運物三號 $8888<button type="submit" class="btn btn-primary">{% trans "我要購買" %}</button> </div>
+                 </div>
+
+            </div>
+
+
+        </div>
+
+</div>
+     </header>
+
+
+{% include 'moneymany/footer.html' %}
+
+</body>
+</html>

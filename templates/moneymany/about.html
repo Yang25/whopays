@@ -1,0 +1,23 @@
+{% load staticfiles i18n %}
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{% trans "今天誰請客" %}</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>{% trans "偶爾也會期待一頓白吃的午餐，快來今天誰請客" %}</p>
+                    <p>{% trans "此遊戲一定有風險，人生在世有賺有陪，請保持健康的心態。" %}</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="{% url 'moneymany:joinnow' %}" class="btn btn-lg btn-outline">
+                        <i class="fa "></i> {% trans "我要參加" %}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>

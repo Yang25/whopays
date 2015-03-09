@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-tw">
+{% include 'moneymany/base.html' %}
+
+
+
+
+<!--<body id="page-top" class="index">-->
+{% if anchor %}
+    <body onload="window.location.href += '{{ anchor }}'" id="page-top" class="index">
+{% else %}
+    <body id="page-top" class="index">
+{% endif %}
+
+
+    {% include 'moneymany/nav.html' %}
+    {% include 'moneymany/header.html' %}
+    {% include 'moneymany/portfolio.html' %}
+    {% include 'moneymany/about.html' %}
+    {% include 'moneymany/contact.html' %}
+    {% include 'moneymany/footer.html' %}
+    {% include 'moneymany/basejs.html' %}
+
+
+
+</body>
+</html>
